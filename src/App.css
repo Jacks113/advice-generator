@@ -64,6 +64,7 @@ body{
 }
 
 .randomAdvice {
+    border: none;
     width: 5em;
     display: flex;
     justify-content: center;
@@ -73,6 +74,14 @@ body{
     border-radius: 50%;
     height: 5em;
 }
+
+.randomAdvice:hover{
+  background-color: hsl(150, 78%, 46%);
+}
+
+
+
+
 
 .randomAdvice img{
   height: 50%;

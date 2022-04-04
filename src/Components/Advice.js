@@ -13,9 +13,9 @@ function Advice(props) {
                     <hr/>
                 </div>
 
-                <figure className="randomAdvice" onClick={getNewAdvice}>
+                <button className="randomAdvice" onClick={getNewAdvice}>
                     <img src="../images/icon-dice.svg" alt="dice-random-advice" />
-                </figure>
+                </button>
             </div>
     }
    
