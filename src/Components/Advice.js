@@ -6,7 +6,7 @@ function Advice(props) {
         
         return <div className="advice-container">
                 <h2>Advice #{adviceId}</h2>
-                <p>"When having a clear out, ask yourself if an item has any financial, practical or sentimental value. If not, chuck it."</p>
+                <p>{adviceText}</p>
                 <div className="play">
                     <hr/>
                     <button className="button-pause"></button>

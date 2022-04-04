@@ -24,6 +24,11 @@ function App() {
     getAdvice(setAdvice, setAdviceError);  
     console.log("get new advice clicked");
   }
+
+  if(adviceError){
+    alert("Couldn't get advice, please wait a few moments and refresh");
+  }
+
   
   return (
     <div className="App">
