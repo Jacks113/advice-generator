@@ -1,9 +1,3 @@
-import React from "react";
-import { Component } from "react";
-import getAdvice from "../Services/getAdvice";
-
-
-
 function Advice(props) {
     
         const {getNewAdvice} = props;
@@ -20,7 +14,7 @@ function Advice(props) {
                 </div>
 
                 <figure className="randomAdvice" onClick={getNewAdvice}>
-                    <img src="../images/icon-dice.svg"/>
+                    <img src="../images/icon-dice.svg" alt="dice-random-advice" />
                 </figure>
             </div>
     }
