@@ -4,10 +4,15 @@ import { Component } from "react";
 
 
 class Advice extends Component {
+    
     render(){
-         return <div className="advice-container">
-                <h2>Advice #117</h2>
-                <p>"Sometimes, you just need to say sorry. Even if it's not your fault."</p>
+       
+        const adviceText = this.props.advice.slip.advice;
+        const adviceId = this.props.advice.slip.id;
+        
+        return <div className="advice-container">
+                <h2>Advice #{adviceId}</h2>
+                <p>{adviceText}</p>
                 <div className="play">
                     <hr/>
                     <button onClick={e=>alert("new click")} className="button-pause"></button>
