@@ -11,7 +11,7 @@ body{
   height: 100vh;
   background-color: hsl(218, 23%, 16%);
   
-  font-family: "Manrope", Arial, sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 12px;
   
   display: flex;
@@ -22,7 +22,10 @@ body{
 
 
 .App {
-  /* height: 50vh; */
+  border-radius: 1em;
+  /* background-color: hsl(217, 19%, 24%); */
+  width: 40vw;
+  height: 40vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,10 +34,10 @@ body{
 }
 
 .advice-container{
-  overflow: hidden;
+  max-width: 99%;
   margin: 1em;
-  width: 30vw;
-  height: 30vh;
+  width: 90%;
+  height: 90%;
 
   background-color: hsl(217, 19%, 24%);
   padding: 2em;
@@ -60,6 +63,22 @@ body{
   padding-top: 1em;
 }
 
+.randomAdvice {
+    width: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2em;
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 50%;
+    height: 5em;
+}
+
+.randomAdvice img{
+  height: 50%;
+  width: 50%;
+}
+
 .play{
   display: flex;
   flex-direction: row;
@@ -78,15 +97,15 @@ body{
   margin: 1em;
   background-color: transparent;
   box-sizing: border-box;
-  height: 2em;
+  height: 1em;
   
   border-color: transparent transparent transparent #ffffff;
   transition: 100ms all ease;
   will-change: border-width;
   cursor: pointer;
 
-  border-style: solid;
-  border-width: 1em 0 1em 1.7em;
+  border-style: double;
+  border-width: 0px 0 0px 1.3em;
 }
 
 @media only screen and (max-height: 800px){
@@ -94,7 +113,7 @@ body{
     font-size: 9px;
   }
 
-  .advice-container{
+  .App{
     height: 50vh;
     width: 50vw;
   }
@@ -102,7 +121,7 @@ body{
 
 
 @media only screen and (max-width: 900px){
-  .advice-container{
+  .App{
     height: 30vh;
     width: 50vw;
   }
@@ -114,35 +133,43 @@ body{
     font-size: 9px;
   }
 
-  .advice-container{
+  .App{
     height: 30vh;
     width: 85vw;
   }
 }
 
-@media only screen and (max-width: 500px){
-  .advice-container {
-    width: 70vw;
+
+
+@media only screen and (max-height: 600px){
+  .App{
+    height: 60vh;
   }
 }
 
-@media only screen and (max-height: 600px){
-  .advice-container{
-    height: 60vh;
+@media only screen and (max-width: 500px){
+  .App{
+    width: 85vw;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  body{
+    font-size: 7px;
   }
 }
 
 @media only screen and (max-height: 300px) {
   body{
-    font-size: 8px;
+    font-size: 4px;
   }
 }
 
 @media only screen and (max-width:200px){
   body{
-    font-size: 9px;
+    font-size: 3px;
   }
-  .advice-container{
+  .App{
     height: 50vh;
   }
  }
