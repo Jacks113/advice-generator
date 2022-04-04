@@ -34,7 +34,6 @@ body{
 }
 
 .advice-container{
-  max-width: 99%;
   margin: 1em;
   width: 90%;
   height: 90%;
@@ -58,9 +57,10 @@ body{
 
 .advice-container p{
   font-weight: 700;
-  font-size: 2em;
+  font-size: 1.7em;
   text-align: center;
   padding-top: 1em;
+  max-height: 50%;
 }
 
 .randomAdvice {
@@ -167,7 +167,7 @@ body{
 
 @media only screen and (max-width:200px){
   body{
-    font-size: 3px;
+    font-size: 5px;
   }
   .App{
     height: 50vh;
