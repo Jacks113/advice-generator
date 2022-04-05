@@ -166,19 +166,24 @@ body{
 @media only screen and (max-width: 500px){
   .App{
     width: 85vw;
-    height: 55vh;
+    height: 35vh;
   }
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 400px) {
   body{
     font-size: 7px;
   }
+
+  .App{
+    width: 85vw;
+    height: 65vh;
+  }
 }
 
-@media only screen and (max-height: 300px) {
+@media only screen and (max-height: 350px) {
   body{
-    font-size: 8px;
+    font-size: 10px;
   }
 
   .App{

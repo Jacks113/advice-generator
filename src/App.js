@@ -22,7 +22,7 @@ function App() {
 
   const getNewAdvice = () =>{
     getAdvice(setAdvice, setAdviceError);  
-    console.log("get new advice clicked");
+    // console.log("get new advice clicked");
   }
 
   if(adviceError){
