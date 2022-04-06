@@ -175,9 +175,13 @@ body{
     font-size: 7px;
   }
 
+  .advice-container p{
+    font-size: 1.4em;
+  }
+
   .App{
     width: 85vw;
-    height: 65vh;
+    height: 35vh;
   }
 }
 
