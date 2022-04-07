@@ -1,6 +1,6 @@
 {
   "short_name": "React App",
-  "name": "Create React App Sample",
+  "name": "Advice generator app based on https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db",
   "icons": [
     {
       "src": "favicon.png",
