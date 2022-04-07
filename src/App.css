@@ -62,6 +62,7 @@ body{
 .advice-container h1{
   /* padding-top: 5%; */
   color: hsl(150, 100%, 66%);
+  font-weight: 200;
   text-transform: uppercase;
   font-size: 1.5em;
 }
@@ -164,7 +165,7 @@ body{
   }
 
   .advice-quote blockquote{
-    font-size:1em;
+    font-size:1.8em;
   }
 }
 
