@@ -6,7 +6,7 @@ function Advice(props) {
         
         return <div className="advice-content">
                 <h2>Advice #{adviceId}</h2>
-                <blockquote>{adviceText}</blockquote>
+                <blockquote>"{adviceText}"</blockquote>
                 <div className="play">
                     <hr/>
                     <p className="button-pause"></p>
