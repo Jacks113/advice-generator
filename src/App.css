@@ -162,6 +162,10 @@ body{
     height: 55vh;
     width: 70vw;
   }
+
+  .advice-quote blockquote{
+    font-size:1em;
+  }
 }
 
 
@@ -210,6 +214,7 @@ body{
   }
 
   .advice-container{
+    margin-top: 100px;
     height: 300px;
   }
 
