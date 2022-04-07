@@ -36,8 +36,8 @@ function App() {
       </main>
 
       <footer className="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="#">Your Name Here</a>.    
+        Challenge by <a href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db" rel='noreferrer' target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/Jacks113">AH</a>.    
       </footer>
      
     </div>
