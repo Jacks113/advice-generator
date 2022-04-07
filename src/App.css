@@ -68,11 +68,21 @@ body{
 
 .advice-container blockquote{
   font-weight: 700;
-  font-size: 1.5em;
+  font-size: 2em;
   text-align: center;
-  padding-top: 1em;
+}
+
+.advice-quote{
+  /* padding-top: 1em; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* padding-bottom: 5em; */
   width: 85%;
-  height: 25%;
+  height: 40%;
 }
 
 .randomAdvice {
@@ -130,7 +140,7 @@ body{
   margin: 1em;
   background-color: transparent;
   box-sizing: border-box;
-  height: 1em;
+  height: 2em;
   
   border-color: transparent transparent transparent #ffffff;
 
@@ -180,55 +190,45 @@ body{
   }
 
   .advice-container{
-    height: 400px;
+    height: 300px;
+  }
+
+  .advice-quote{
+    
+    height: 45%;
+    max-height: 50%;
   }
 
   .advice-container blockquote{
-    font-size: 3em;
-    max-height: 50%;
+    font-size: 2em;
   }
 
   .button-pause{
     height: 2em;
-    margin: 2em;  }
-
-  .play{
-    margin-top: 4em;
+    margin: 2em;  
   }
 
 }
 
 @media only screen and (max-height: 350px) {
   body{
-    font-size: 10px;
+    font-size: 7px;
   }
 
-
-  .randomAdvice{
-    height: 3em;
-    width: 3em;
-  }
-}
-
-@media only screen and (max-width:250px){
-  body{
-    font-size: 3px;
-  }
-
-
-  .button-pause{
-    border-width: 0px 0 0px 0.5em;
-    
-  }
-
-  .randomAdvice{
-    height: 2em;
-    width: 2em;
+  .advice-container{
+    height: 300px;
   }
 
   .advice-container blockquote{
-    font-size: 2.2em;
+    font-size: 2em;
+    max-height: 50%;
   }
-  
-  
- }
+
+  .button-pause{
+    height: 2em;
+    margin: 2em;  
+  }
+
+}
+
+
