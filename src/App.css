@@ -30,6 +30,9 @@ body{
   color: whitesmoke;
 }
 
+/* styles for the container of all the elements */
+
+
 .advice-container{
   padding: 2em;
   margin: 1em;
@@ -42,6 +45,8 @@ body{
 
   
 }
+
+/* styles for the content, advice and elements */
 
 .advice-content {
   width: 100%;
@@ -71,7 +76,6 @@ body{
 }
 
 .advice-quote{
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -80,6 +84,39 @@ body{
   width: 85%;
   height: 40%;
 }
+
+
+
+.play{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin-top: 0.5em;
+}
+
+.play hr{
+  width: 35%;
+  height: 1px;
+  background-color: whitesmoke;
+  opacity: 0.3;
+}
+
+.button-pause {
+  margin: 1em;
+  border: 7px solid;
+  background-color: transparent;
+  box-sizing: border-box;
+  height: 2em;
+  
+  border-color: transparent transparent transparent #ffffff;
+
+  border-style: double;
+  border-width: 0px 0 0px 1.3em;
+}
+
+/* styles for the button that gives new advice */
 
 .randomAdvice {
     border: none;
@@ -113,34 +150,6 @@ body{
   width: 50%;
 }
 
-.play{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  width: 90%;
-  margin-top: 0.5em;
-}
-
-.play hr{
-  width: 35%;
-  height: 1px;
-  background-color: whitesmoke;
-  opacity: 0.3;
-}
-
-.button-pause {
-  margin: 1em;
-  border: 7px solid;
-  background-color: transparent;
-  box-sizing: border-box;
-  height: 2em;
-  
-  border-color: transparent transparent transparent #ffffff;
-
-  border-style: double;
-  border-width: 0px 0 0px 1.3em;
-}
 
 @media only screen and (max-height: 800px){
   body{
