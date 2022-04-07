@@ -6,7 +6,7 @@ function Advice(props) {
         
         return <div className="advice-content">
 
-                <h2>Advice #{adviceId}</h2>
+                <h1>Advice #{adviceId}</h1>
 
                 <div className="advice-quote">
                     <blockquote>"{adviceText}"</blockquote>
@@ -18,7 +18,7 @@ function Advice(props) {
                     <hr/>
                 </div>
               
-              
+
             </div>
     }
    
