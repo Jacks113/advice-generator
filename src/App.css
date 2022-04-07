@@ -138,6 +138,7 @@ body{
 
 .button-pause {
   margin: 1em;
+  border: 7px solid;
   background-color: transparent;
   box-sizing: border-box;
   height: 2em;
@@ -176,13 +177,6 @@ body{
 }
 
 
-
-@media only screen and (max-height: 600px){
-}
-
-@media only screen and (max-width: 500px){
-
-}
 
 @media only screen and (max-width: 400px) {
   body{
@@ -227,6 +221,26 @@ body{
   .button-pause{
     height: 2em;
     margin: 2em;  
+  }
+
+}
+
+@media only screen and (max-width:200px){
+
+  .advice-quote blockquote{
+    font-size: 1em;
+  }
+
+}
+
+@media only screen and (max-height:200px){
+  
+  .advice-quote blockquote{
+    font-size: 1.4em;
+  }
+
+  .App{
+    margin-top: 150px;
   }
 
 }
