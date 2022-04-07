@@ -11,12 +11,13 @@ function Advice(props) {
                 <div className="advice-quote">
                     <blockquote>"{adviceText}"</blockquote>
                 </div>
-                
+
                 <div className="play">
                     <hr/>
                     <p className="button-pause"></p>
                     <hr/>
                 </div>
+              
               
             </div>
     }
