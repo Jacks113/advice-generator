@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import Advice from './Components/Advice';
+import NewAdvice from './Components/NewAdvice';
 import getAdvice from './Services/getAdvice';
 
 function App() {
@@ -10,11 +11,7 @@ function App() {
   // const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // fetch("")
-    // .then(result => result.json())
-    //     .then( (result) => setAdvice({result})),
-    //         (error) => {setAdviceError({error})} 
-
+    
   getAdvice(setAdvice, setAdviceError);
   }
   ,[])
@@ -33,8 +30,10 @@ function App() {
   return (
     <div className="App">
 
-      { advice !== "" && advice !== null ? <Advice getNewAdvice={getNewAdvice} advice = {advice}/>  :""}      
-
+      <main className='advice-container'>
+        { advice !== "" && advice !== null ? <Advice advice = {advice}/>  :""}
+        <NewAdvice getNewAdvice={getNewAdvice}/>      
+      </main>
 
      
     </div>
