@@ -59,7 +59,7 @@ body{
   background-color: hsl(217, 19%, 24%);
 }
 
-.advice-container h2{
+.advice-container h1{
   /* padding-top: 5%; */
   color: hsl(150, 100%, 66%);
   text-transform: uppercase;
